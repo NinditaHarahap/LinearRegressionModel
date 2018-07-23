@@ -16,23 +16,23 @@ df.info
 ```
 
 3. find constants and coefficient regression with x2, y2, and xy
-3.a.
 ```markdown
+`3.a`
 df['x2'] = df['x'].map(lambda x: x*x)
 df['y2'] = df['y'].map(lambda y: y*y)
 df['xy'] = df['x'] * df['y']
 df.head()
 ```
 ```markdown
+`3.b`
 print("(sum x) is", sum(df['x']))
 print("(sum y) is",sum(df['y']))
 print("(sum x2) is",sum(df['x2']))
 print("(sum y2) is",sum(df['y2']))
 print("(sum xy) is",sum(df['xy']))
 ```
-
-3.b.
 ```markdown
+`3.c`
 Find constants (a)
 a = ((sum y)(sum x2) - (sum x)(sum xy)) / (n(sum x2) - (sum x)**2)
 a = (((393.93625*14.99537)-(-1.76185*37.66216))/((100*14.99537)-(-1.76185**2)))
