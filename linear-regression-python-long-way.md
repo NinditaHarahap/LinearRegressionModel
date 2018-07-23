@@ -1,4 +1,5 @@
 **Linear Regression with Python**
+
 **1. Here's a way to calculate the basic Linear Regression:**
 1. Import the necessary packages
 ```markdown
