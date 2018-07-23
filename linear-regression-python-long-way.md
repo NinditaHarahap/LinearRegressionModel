@@ -1,5 +1,5 @@
-##Linear Regression with Python
-##1. Here's a way to manually calculated the linear regression:
+**Linear Regression with Python**
+**1. Here's a way to calculate the basic Linear Regression:**
 1. Import the necessary packages
 ```markdown
 import pandas as pd
@@ -34,14 +34,14 @@ print("(sum xy) is",sum(df['xy']))
 ```markdown
 Find constants (a)
 a = ((sum y)(sum x2) - (sum x)(sum xy)) / (n(sum x2) - (sum x)**2)
-`a = (((393.93625*14.99537)-(-1.76185*37.66216))/((100*14.99537)-(-1.76185**2)))
+a = (((393.93625*14.99537)-(-1.76185*37.66216))/((100*14.99537)-(-1.76185**2)))
 print(a)
 ```
 
 ```markdown
 Find coefficient regression (b)
 b = (n(sum xy) - (sum x)(sum y))/(n(sum x2) - (sum x)**2)
-`b = (((100*37.66216)-(-1.761815*393.93625))/(100*14.99537-(-1.761815**2)))
+b = (((100*37.66216)-(-1.761815*393.93625))/(100*14.99537-(-1.761815**2)))
 print(b)
 ```
 
