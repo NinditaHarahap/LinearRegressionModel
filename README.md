@@ -15,3 +15,8 @@ y = estimated dependent variable score,
 c = constant, 
 b = regression coefficient, 
 x = score on the independent variable.
+
+
+# Use Python to Calculate Linear Regression
+1. Use the sample model attached: linear-regression.csv
+2. Follow the Python code: linear-regression-python
